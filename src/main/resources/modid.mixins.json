@@ -4,13 +4,11 @@
   "package": "net.qorple.dungeonsoplenty.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-
+    "PlayerEntityRendererMixin"
   ],
   "client": [
-
   ],
   "server": [
-
   ],
   "injectors": {
     "defaultRequire": 1

@@ -1,4 +1,4 @@
-package registry;
+package net.qorple.dungeonsoplenty.registry;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.item.Item;
@@ -10,11 +10,9 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
-import qorple.dungeonsoplenty.DungeonsOPlenty;
 
 public class ItemRegistry {
 
-   
 
     public static void initItems() {
         

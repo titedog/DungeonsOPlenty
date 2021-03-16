@@ -1,6 +1,7 @@
 package net.qorple.dungeonsoplenty;
 
 import net.fabricmc.api.ModInitializer;
+import net.qorple.dungeonsoplenty.registry.ItemRegistry;
 import net.qorple.dungeonsoplenty.registry.StatusEffectRegistry;
 
 public class DungeonsOPlenty implements ModInitializer {
@@ -12,6 +13,7 @@ public class DungeonsOPlenty implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		StatusEffectRegistry.initEffects();
+		ItemRegistry.initItems();
 
 		System.out.println(MOD_DEBUG + "Successfully loaded " + MOD_NAME + "!");
 	}
