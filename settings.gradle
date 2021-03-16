@@ -1,0 +1,9 @@
+pluginManagement {
+    repositories {
+        maven {
+            name = 'DungeonsOPlenty'
+            url = 'https://maven.fabricmc.net/'
+        }
+        gradlePluginPortal()
+    }
+}
